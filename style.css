@@ -68,6 +68,24 @@ thead {
 tbody tr:nth-child(even) {
     background-color: lightblue;
 } 
+@media screen and (max-width: 1000px){
+    body {
+        width: 85%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:"h h"
+        "nav nav"
+        "article aside"
+        "f f" ;
+    }
+    nav a {
+        display: inline;
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 @media screen and (max-width: 700px){
     body {
         width: 95%;
