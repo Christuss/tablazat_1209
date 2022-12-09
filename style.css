@@ -96,4 +96,10 @@ tbody tr:nth-child(even) {
         "aside"
         "f" ;
     }
+    nav a{
+        display: block;
+    }
+    nav ul {
+        display: inline ;
+    }
 }
